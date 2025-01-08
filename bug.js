@@ -1,0 +1,1 @@
+This error occurs when using the Expo DocumentPicker API on Android devices. The picker opens successfully, but when a file is selected, the promise returned by useDocumentPickerAsync never resolves, resulting in a hang or crash.  The issue isn't consistently reproducible across all Android devices or versions. No error messages appear in the console.
